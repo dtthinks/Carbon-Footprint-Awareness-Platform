@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoTrack AI Ultimate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>🌍 EcoTrack AI Ultimate</h1>
+<p>Advanced Carbon Footprint Intelligence Dashboard</p>
+
+<div class="card">
+<label>Travel (km/day)</label>
+<input id="travel" type="number" value="15">
+
+<label>Electricity (kWh/month)</label>
+<input id="electricity" type="number" value="180">
+
+<label>AC Usage (hours/day)</label>
+<input id="ac" type="number" value="5">
+
+<label>Diet</label>
+<select id="diet">
+<option value="50">Vegetarian</option>
+<option value="120">Non‑Vegetarian</option>
+</select>
+
+<button id="analyzeBtn">Analyze with AI</button>
+</div>
+
+<div class="card">
+<h2>Carbon Analysis</h2>
+<div id="result"></div>
+<div class="meter"><div id="fill"></div></div>
+</div>
+
+<div class="card">
+<h2>Personalized Reduction Plan</h2>
+<ul id="plan"></ul>
+</div>
+
+<div class="card">
+<h2>Achievements</h2>
+<div id="badge"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

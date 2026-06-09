@@ -1,0 +1,8 @@
+
+body{font-family:system-ui;background:#eef7f0;margin:0;padding:20px}
+.container{max-width:1000px;margin:auto}
+.card{background:#fff;padding:20px;margin:15px 0;border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+input,select,button{width:100%;padding:12px;margin:10px 0}
+button{background:#148a43;color:#fff;border:none;font-weight:bold;cursor:pointer}
+.meter{height:20px;background:#ddd;border-radius:20px;overflow:hidden}
+#fill{height:100%;width:0%;background:#148a43;transition:.5s}
