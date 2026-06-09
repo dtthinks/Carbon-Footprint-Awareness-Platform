@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EcoTrack AI Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<div class="floating f1">🍃</div>
+<div class="floating f2">🌎</div>
+<div class="floating f3">🌱</div>
+
+<div class="container">
+<div class="hero">
+<h1>🌍 EcoTrack AI Premium</h1>
+<p>Track • Analyze • Reduce Your Carbon Footprint</p>
+</div>
+
+<div class="card">
+<input id="travel" type="number" placeholder="Travel km/day" value="15">
+<input id="electricity" type="number" placeholder="Electricity kWh/month" value="180">
+<input id="ac" type="number" placeholder="AC Hours/day" value="5">
+<select id="diet">
+<option value="50">Vegetarian</option>
+<option value="120">Non Vegetarian</option>
+</select>
+<button onclick="analyze()">Analyze</button>
+</div>
+
+<div class="card center">
+<div class="circle" id="circle">
+<div id="score">0</div>
+</div>
+<h3 id="risk">Waiting...</h3>
+</div>
+
+<div class="card">
+<h2>AI Recommendations</h2>
+<ul id="plan"></ul>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
